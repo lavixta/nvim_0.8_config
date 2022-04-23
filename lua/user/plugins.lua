@@ -150,7 +150,7 @@ return packer.startup(function(use)
     cmd = "TroubleToggle",
   }
   use "github/copilot.vim"
-  use "RRethy/vim-illuminate"
+  -- use "RRethy/vim-illuminate"
 
   -- Java
   use "mfussenegger/nvim-jdtls"
@@ -189,6 +189,7 @@ return packer.startup(function(use)
   use "rcarriga/nvim-dap-ui"
   use "Pocco81/DAPInstall.nvim"
 
+  use "rebelot/kanagawa.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
