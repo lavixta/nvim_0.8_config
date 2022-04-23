@@ -48,7 +48,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim"
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
-  use "tamago324/lir.nvim"
+  -- use "tamago324/lir.nvim"
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   use "nvim-lualine/lualine.nvim"
@@ -56,17 +56,17 @@ return packer.startup(function(use)
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
-  use "goolord/alpha-nvim"
+  -- use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
-  use "unblevable/quick-scope"
-  use "phaazon/hop.nvim"
+  -- use "unblevable/quick-scope"
+  -- use "phaazon/hop.nvim"
   use "andymass/vim-matchup"
-  use "nacro90/numb.nvim"
-  use "monaqa/dial.nvim"
+  -- use "nacro90/numb.nvim"
+  -- use "monaqa/dial.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "windwp/nvim-spectre"
-  use "folke/zen-mode.nvim"
+  -- use "folke/zen-mode.nvim"
   use "karb94/neoscroll.nvim"
   use "folke/todo-comments.nvim"
   use "kevinhwang91/nvim-bqf"
@@ -79,7 +79,7 @@ return packer.startup(function(use)
   use "rcarriga/nvim-notify"
   use "tversteeg/registers.nvim"
   -- use "metakirby5/codi.vim"
-  use "nyngwang/NeoZoom.lua"
+  -- use "nyngwang/NeoZoom.lua"
   use "SmiteshP/nvim-gps"
   use { "michaelb/sniprun", run = "bash ./install.sh" }
   use {
@@ -88,12 +88,12 @@ return packer.startup(function(use)
     run = "cd app && npm install",
     ft = "markdown",
   }
-  use "matbme/JABS.nvim"
+  -- use "matbme/JABS.nvim"
 
   -- Colorschemes
   use "folke/tokyonight.nvim"
   use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
+  -- use "lunarvim/darkplus.nvim"
   use "rose-pine/neovim"
   -- use "rebelot/kanagawa.nvim"
 
@@ -173,7 +173,7 @@ return packer.startup(function(use)
   use "nvim-treesitter/playground"
   use "windwp/nvim-ts-autotag"
   use "romgrk/nvim-treesitter-context"
-  use "mizlan/iswap.nvim"
+  -- use "mizlan/iswap.nvim"
 
   -- Git
   use "lewis6991/gitsigns.nvim"
