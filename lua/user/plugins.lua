@@ -94,8 +94,6 @@ return packer.startup(function(use)
   use "folke/tokyonight.nvim"
   use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   -- use "lunarvim/darkplus.nvim"
-  use "rose-pine/neovim"
-  -- use "rebelot/kanagawa.nvim"
 
   -- cmp plugins
   -- use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -189,8 +187,8 @@ return packer.startup(function(use)
   use "theHamsta/nvim-dap-virtual-text"
   use "rcarriga/nvim-dap-ui"
   use "Pocco81/DAPInstall.nvim"
-
-  use "rebelot/kanagawa.nvim"
+use "sainnhe/everforest"
+  use { "rebelot/kanagawa.nvim"}
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

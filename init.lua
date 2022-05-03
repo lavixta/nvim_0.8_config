@@ -1,6 +1,7 @@
 require "user.options"
 require "user.keymaps"
 require "user.plugins"
+require"user.kanagawa"
 require "user.default_config"
 require "user.autocommands"
 require "user.colorscheme"
