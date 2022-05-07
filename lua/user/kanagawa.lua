@@ -4,7 +4,7 @@ local default_colors = require("kanagawa.colors").setup()
 local my_colors = {
     -- use the palette color name...
   oniViolet = "#ad4c10",
-  springGreen = "#51ad53",
+  springGreen = "#5faf00",
     -- fujiWhite = "#FFFFFF",
     -- ...or the theme name
     -- bg = "#272727",
