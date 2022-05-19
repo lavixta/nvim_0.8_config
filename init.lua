@@ -48,6 +48,15 @@ require "user.copilot"
 require "user.gps"
 -- require "user.illuminate"
 require "user.dap"
+<<<<<<< HEAD
 -- require "user.lir"
 -- require "user.jabs"
 
+||||||| 864662a
+require "user.lir"
+require "user.jabs"
+=======
+require "user.lir"
+require "user.jabs"
+require "user.winbar"
+>>>>>>> refs/remotes/origin/master
