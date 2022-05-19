@@ -88,13 +88,7 @@ return packer.startup(function(use)
     run = "cd app && npm install",
     ft = "markdown",
   }
-<<<<<<< HEAD
-  -- use "matbme/JABS.nvim"
-||||||| 864662a
-  use "matbme/JABS.nvim"
-=======
   use "christianchiarulli/JABS.nvim"
->>>>>>> refs/remotes/origin/master
 
   -- Colorschemes
   use "folke/tokyonight.nvim"
