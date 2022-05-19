@@ -88,7 +88,7 @@ return packer.startup(function(use)
     run = "cd app && npm install",
     ft = "markdown",
   }
-  use "christianchiarulli/JABS.nvim"
+  -- use "christianchiarulli/JABS.nvim"
 
   -- Colorschemes
   use "folke/tokyonight.nvim"
