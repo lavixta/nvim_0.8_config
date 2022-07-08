@@ -1,4 +1,5 @@
 require "user.keymaps"
+require "user.default_configs"
 require "user.plugins"
 require "user.autocommands"
 require "user.colorscheme"
