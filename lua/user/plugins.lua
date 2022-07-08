@@ -199,7 +199,7 @@ return packer.startup(function(use)
   -- use "rcarriga/cmp-dap"
   -- use "filipdutescu/renamer.nvim"
   -- use "https://github.com/rhysd/conflict-marker.vim"
-  -- use "rebelot/kanagawa.nvim"
+  use "rebelot/kanagawa.nvim"
   -- use "unblevable/quick-scope"
   -- use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   -- use "gbprod/cutlass.nvim"
