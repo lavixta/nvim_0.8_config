@@ -139,7 +139,7 @@ return packer.startup(function(use)
       end, 100)
     end,
   }
-  use "RRethy/vim-illuminate"
+  -- use "RRethy/vim-illuminate"
   -- use "stevearc/aerial.nvim"
   use "j-hui/fidget.nvim"
   -- TODO: set this up
