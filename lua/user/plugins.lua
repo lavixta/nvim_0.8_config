@@ -46,7 +46,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim"
   -- use "tiagovla/scope.nvim"
-  -- use "akinsho/bufferline.nvim"
+  use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   use "nvim-lualine/lualine.nvim"
   use "akinsho/toggleterm.nvim"
@@ -58,12 +58,12 @@ return packer.startup(function(use)
   -- Lua
   use "kylechui/nvim-surround"
   -- Lua
-  use {
-    "abecodes/tabout.nvim",
-    wants = { "nvim-treesitter" }, -- or require if not used so far
-  }
-  use "nacro90/numb.nvim"
-  use "monaqa/dial.nvim"
+  -- use {
+  --   "abecodes/tabout.nvim",
+  --   wants = { "nvim-treesitter" }, -- or require if not used so far
+  -- }
+  -- use "nacro90/numb.nvim"
+  -- use "monaqa/dial.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "windwp/nvim-spectre"
   use "kevinhwang91/nvim-bqf"
@@ -81,25 +81,25 @@ return packer.startup(function(use)
 
   -- UI
   use "stevearc/dressing.nvim"
-  use "ghillb/cybu.nvim"
+  -- use "ghillb/cybu.nvim"
   use { "christianchiarulli/nvim-gps", branch = "text_hl" }
   use "tversteeg/registers.nvim"
   use "rcarriga/nvim-notify"
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "tamago324/lir.nvim"
-  use "goolord/alpha-nvim"
+  -- use "goolord/alpha-nvim"
   use "folke/which-key.nvim"
-  use "folke/zen-mode.nvim"
-  use "karb94/neoscroll.nvim"
+  -- use "folke/zen-mode.nvim"
+  -- use "karb94/neoscroll.nvim"
   use "folke/todo-comments.nvim"
   use "andymass/vim-matchup"
 
   -- Colorschemes
-  use "folke/tokyonight.nvim"
-  use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
-  use "lunarvim/onedarker.nvim"
+  -- use "folke/tokyonight.nvim"
+  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
+  -- use "lunarvim/darkplus.nvim"
+  -- use "lunarvim/onedarker.nvim"
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp" }
@@ -110,7 +110,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-emoji"
   use "hrsh7th/cmp-nvim-lua"
-  use "zbirenbaum/copilot-cmp"
+  -- use "zbirenbaum/copilot-cmp"
   use {
     "tzachar/cmp-tabnine",
     run = "./install.sh",
@@ -129,16 +129,16 @@ return packer.startup(function(use)
   use "ray-x/lsp_signature.nvim"
   use "b0o/SchemaStore.nvim"
   use "folke/trouble.nvim"
-  -- use "github/copilot.vim"
-  use {
-    "zbirenbaum/copilot.lua",
-    event = { "VimEnter" },
-    config = function()
-      vim.defer_fn(function()
-        require "user.copilot"
-      end, 100)
-    end,
-  }
+  use "github/copilot.vim"
+  -- use {
+  --   "zbirenbaum/copilot.lua",
+  --   event = { "VimEnter" },
+  --   config = function()
+  --     vim.defer_fn(function()
+  --       require "user.copilot"
+  --     end, 100)
+  --   end,
+  -- }
   -- use "RRethy/vim-illuminate"
   -- use "stevearc/aerial.nvim"
   use "j-hui/fidget.nvim"
@@ -160,6 +160,7 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "tom-anders/telescope-vim-bookmarks.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
+  -- browse the input with google (<leader>B)
   use "lalitmee/browse.nvim"
 
   -- Treesitter
