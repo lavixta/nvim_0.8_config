@@ -1,4 +1,4 @@
-local default_colors = require("kanagawa.colors").setup()
+-- local default_colors = require("kanagawa.colors").setup()
 
 
 -- this will affect all the hl-groups where the redefined colors are used
