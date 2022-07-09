@@ -8,9 +8,13 @@
   vim.cmd "let &fcs='eob: '"
 local keymap = vim.api.nvim_set_keymap
 opts = {noremap = true, silent = true}
-keymap("n", "<C-s>", ":w<cr>",opts)
+keymap("x", "<C-s>", ":w<cr>",opts)
 keymap("i","<C-h>","<left>",opts)
 keymap("i","<C-l>","<right>",opts)
+keymap("x","<C-]>","<M-]>",opts)
+keymap('i', '<C-]>', '<Plug>(copilot-next)',opts)
+keymap('i', '<C-[>', '<Plug>(copilot-dismiss)',opts)
+
 vim.diagnostic.config({
     virtual_text = true
   })

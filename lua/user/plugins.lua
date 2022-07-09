@@ -141,7 +141,7 @@ return packer.startup(function(use)
   -- }
   -- use "RRethy/vim-illuminate"
   -- use "stevearc/aerial.nvim"
-  use "j-hui/fidget.nvim"
+  -- use "j-hui/fidget.nvim"
   -- TODO: set this up
   -- use "rmagatti/goto-preview"
   use "nvim-lua/lsp_extensions.nvim"
