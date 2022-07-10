@@ -148,7 +148,7 @@ return packer.startup(function(use)
   use "nvim-lua/lsp_extensions.nvim"
 
   -- Java
-  use "mfussenegger/nvim-jdtls"
+  -- use "mfussenegger/nvim-jdtls"
 
   -- Rust
   use "simrat39/rust-tools.nvim"
