@@ -66,6 +66,9 @@ return packer.startup(function(use)
   -- use "monaqa/dial.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "windwp/nvim-spectre"
+  -- use "folke/zen-mode.nvim"
+  use "karb94/neoscroll.nvim"
+  use "folke/todo-comments.nvim"
   use "kevinhwang91/nvim-bqf"
   use "ThePrimeagen/harpoon"
   use "MattesGroeger/vim-bookmarks"
@@ -77,8 +80,7 @@ return packer.startup(function(use)
     run = "cd app && npm install",
     ft = "markdown",
   }
-  -- use "stevearc/stickybuf.nvim"
-  use "rmagatti/auto-session"
+  -- use "christianchiarulli/JABS.nvim"
 
   -- UI
   use "stevearc/dressing.nvim"
